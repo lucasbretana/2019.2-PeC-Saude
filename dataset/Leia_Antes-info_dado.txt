@@ -1,0 +1,162 @@
+***************    O dataset esta organizado da sequinte forma         ****************
+
+***** ;Vazão de escoamento; Sensor Invasivo; Sensor Não Invasivo; Tempo restante; ***** 
+
+*********   IMPORTANTE todas as vazão são de 10 mL/H **********************************
+*********   Detalhe pode haver alguns dados que não tenham as 4 colunas ***************
+********    se isso ocorrer considerar dado falso e descartar essa linha **************
+
+******** Testes ***********************************************************************
+{ Inicio
+
+600 10 ml 30 min livre 30 min ocluido  psi  2 min livre  = transição
+601 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+602 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+603 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+604 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+605 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+606 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+607 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+608 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+609 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+610 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+611 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+612 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+613 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+614 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+615 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+616 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+617 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+618 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+619 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+620 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+621 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+622 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+623 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+624 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+625 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+626 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+627 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+628 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+629 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+630 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+631 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+632 10 ml 30 min livre 30 min ocluido  psi  2 min livre 
+633 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+634 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+635 10 ml 30 min livre 30 min ocluido  psi  2 min livre
+
+640 10 ml 1h livre = sem oclusão 
+641 10 ml 1h livre
+642 10 ml 1h livre
+643 10 ml 1h livre
+644 10 ml 1h livre
+645 10 ml 1h livre
+646 10 ml 1h livre
+647 10 ml 1h livre
+648 10 ml 1h livre
+649 10 ml 1h livre
+650 10 ml 1h livre
+651 10 ml 1h livre
+652 10 ml 1h livre
+653 10 ml 1h livre
+654 10 ml 1h livre
+655 10 ml 1h livre
+656 10 ml 1h livre
+657 10 ml 1h livre
+658 10 ml 1h livre
+659 10 ml 1h livre
+660 10 ml 1h livre
+661 10 ml 1h livre
+662 10 ml 1h livre
+663 10 ml 1h livre
+664 10 ml 1h livre
+665 10 ml 1h livre
+666 10 ml 1h livre
+667 10 ml 1h livre
+668 10 ml 1h livre
+669 10 ml 1h livre
+
+670 10 ml 1h total = ocluído 
+671 10 ml 1h total
+672 10 ml 1h total
+673 10 ml 1h total
+674 10 ml 1h total
+675 10 ml 1h total
+676 10 ml 1h total
+677 10 ml 1h total
+678 10 ml 30 min total
+679 10 ml 30 min total
+680 10 ml 30 min total
+681 10 ml 30 min total
+682 10 ml 30 min total
+683 10 ml 30 min total
+684 10 ml 30 min total
+685 10 ml 30 min total
+686 10 ml 30 min total
+687 10 ml 30 min total
+688 10 ml 30 min total
+689 10 ml 30 min total
+690 10 ml 30 min total
+691 10 ml 30 min total
+692 10 ml 30 min total
+693 10 ml 30 min total
+694 10 ml 30 min total
+695 10 ml 30 min total
+696 10 ml 30 min total
+697 10 ml 30 min total
+698 10 ml 30 min total
+699 10 ml 30 min total
+
+700 10 ml 1h coluna = pressão constante = oclusão parcial
+701 10 ml 1h coluna
+702 10 ml 1h coluna
+703 10 ml 1h coluna
+704 10 ml 1h coluna
+705 10 ml 1h coluna
+706 10 ml 1h coluna
+707 10 ml 1h coluna
+708 10 ml 1h coluna
+709 10 ml 1h coluna
+710 10 ml 1h coluna
+711 10 ml 1h coluna
+712 10 ml 1h coluna
+713 10 ml 1h coluna
+714 10 ml 1h coluna
+715 10 ml 1h coluna
+716 10 ml 1h coluna
+717 10 ml 1h coluna
+718 10 ml 1h coluna
+719 10 ml 1h coluna
+720 10 ml 1h coluna
+721 10 ml 1h coluna
+722 10 ml 1h coluna
+723 10 ml 1h coluna
+724 10 ml 1h coluna
+725 10 ml 1h coluna
+726 10 ml 1h coluna
+727 10 ml 1h coluna
+728 10 ml 1h coluna
+729 10 ml 1h coluna
+
+Fim}
+
+Dados extras 
+
+800 10 ml 1h livre
+801 10 ml 1h livre
+802 10 ml 1h livre
+803 10 ml 1h livre
+804 10 ml 1h livre
+
+805 10 ml 30 min ocluido
+806 10 ml 30 min ocluido
+807 10 ml 30 min ocluido
+808 10 ml 30 min ocluido
+809 10 ml 30 min ocluido
+
+810 10 ml 1h coluna
+811 10 ml 1h coluna
+812 10 ml 1h coluna
+813 10 ml 1h coluna
+814 10 ml 1h coluna
